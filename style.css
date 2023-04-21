@@ -14,7 +14,7 @@ nav {
     background: hsla(0,0%,100%, .25);
     backdrop-filter: blur 4px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     box-shadow: 0 16px 10px -18px #6a7da8;
 }
 
@@ -23,12 +23,14 @@ nav {
     justify-content: flex-start;
     margin-top: 10px;
     margin-bottom: 5px;
+    margin-left: 50px;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 30px;
+    margin-right: 50px;
 }
 
 ul a {
