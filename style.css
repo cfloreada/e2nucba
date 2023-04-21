@@ -39,10 +39,12 @@ ul a {
 a:hover {
   color: #4367ba;
   cursor: pointer;
-  font-weight: bold;
+  padding: 0, 10px;
+  text-decoration: underline;
 }
 
 .navlink_contacto {
     background-color: white;
     font-weight: bold;
+    border-radius: 4px;
 }
