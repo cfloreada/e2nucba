@@ -119,11 +119,14 @@ main {
 
 .descripcion {
   display: flex;
-  font-size: 18px;
   justify-content: center;
   align-items: center;
-  padding: 60px 200px;
-  max-width: 100%;
+  padding: 20px 20px;
+}
+
+.descripcion p {
+  font-size: 18px;
   text-align: center;
-  line-height: 30px;
+  line-height: 150%;
+  max-width: 800px;
 }
