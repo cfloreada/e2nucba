@@ -1,42 +1,46 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
 }
 
 body {
-    background-color: #e2e4e8;
+  background-color: #e2e4e8;
 }
 nav {
-    display: flex;
-    background: hsla(0,0%,100%, .25);
-    backdrop-filter: blur 4px;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 16px 10px -18px #6a7da8;
+  display: flex;
+  width: 100%;
+  background: hsla(0, 0%, 100%, 0.25);
+  backdrop-filter: blur(4px);
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 16px 10px -18px #6a7da8;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 }
 
 .logo_navbar {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 50px;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-right: 50px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 50px;
 }
 
 ul a {
-    color: gray;
-    text-decoration: none;
+  color: #2b2b2b;
+  text-decoration: none;
 }
 
 a:hover {
@@ -47,8 +51,79 @@ a:hover {
 }
 
 .navlink_contacto {
-    background-color: white;
-    padding: 3%;
-    font-weight: bold;
-    border-radius: 16px;
+  background-color: white;
+  padding: 3%;
+  font-weight: bold;
+  border-radius: 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#bannerprincipal {
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  gap: 30px;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  max-width: 50%;
+  color: grey;
+  font-size: 18px;
+  padding: 70px 20px;
+}
+
+.imgbanner {
+  display: flex;
+  max-height: 500px;
+}
+
+.presentacion h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #2b2b2b;
+}
+
+.bannerbotones {
+  display: flex;
+  gap: 30px;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.bannerbotones a {
+  align-items: center;
+  color: #e2e4e8;
+  background-color: #425ca6;
+  border-radius: 40px;
+  padding: 15px;
+  font-size: 17px;
+}
+
+.imgbanner {
+  display: flex;
+  border-radius: 10px;
+}
+
+.descripcion {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 200px;
+  max-width: 100%;
+  text-align: center;
+  line-height: 30px;
 }
