@@ -121,12 +121,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1200px;
   padding: 20px 20px;
 }
 
 .descripcion p {
-  font-size: 18px;
   text-align: center;
   line-height: 150%;
   max-width: 800px;
+  font-size: 15px;
 }
