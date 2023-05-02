@@ -66,7 +66,7 @@ main {
 }
 
 #bannerprincipal {
-  margin-top: 100px;
+  margin-top: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +110,7 @@ main {
   background-color: #425ca6;
   border-radius: 40px;
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -119,14 +119,15 @@ main {
   border-radius: 10px;
 }
 
-.descripcion {
+#descripcion {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
-  padding: 20px 20px;
+  padding: 40px 90px;
 }
 
-.descripcion p {
+#descripcion p {
   text-align: center;
   line-height: 30px;
   max-width: 800px;
