@@ -42,8 +42,11 @@ nav {
 ul {
   list-style: none;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 30px;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
   margin-right: 50px;
 }
 
@@ -57,6 +60,10 @@ a:hover {
   cursor: pointer;
   padding: 0, 10px;
   text-decoration: underline;
+}
+
+.navlink {
+  padding: 0 30px;
 }
 
 .navlink_contacto {
