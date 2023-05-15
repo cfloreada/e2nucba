@@ -45,8 +45,8 @@ ul {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  font-size: 14px;
+  gap: 8px;
+  font-size: 16px;
   margin-right: 50px;
 }
 
@@ -68,7 +68,7 @@ a:hover {
 
 .navlink_contacto {
   background-color: var(--white);
-  padding: 3%;
+  padding: 18px;
   font-weight: bold;
   border-radius: 16px;
 }
